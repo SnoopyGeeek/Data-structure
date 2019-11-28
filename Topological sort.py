@@ -184,7 +184,7 @@ def DFSSort(nodesum,edgelist):
 
     def visit(node):
         nonlocal visited,graph,ans,temp,flag
-        visted[node]=True
+        visited[node]=True
         temp[node]=True                           # temporariely visted mark
         for i in graph[node]:
             if temp[i]:
